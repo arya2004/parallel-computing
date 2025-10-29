@@ -5,14 +5,10 @@ using namespace std;
 int main() {
 
     //fraction of code that can be ||ised
-    double p;
+    double p = 0.8;
 
     //processors
-    int n;
-
-
-    cin >> p;
-    cin >> n;
+    int n = 4;
 
     double speedup = 1.0 / ((1 - p) + (p/n));
 
