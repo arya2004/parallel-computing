@@ -60,5 +60,4 @@ dkms.conf
 # debug information files
 *.dwo
 
-temp
-tmp
+*.jpg
